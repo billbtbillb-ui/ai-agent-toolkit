@@ -12,11 +12,13 @@
 
 | Skill | Description | Price |
 |-------|-------------|-------|
-| **security-audit** | Automated security scanning + fix suggestions | $9.99 |
-| **api-integration** | One-click API integration (auto-read docs + generate code) | $9.99 |
-| **db-migration** | Database migration assistant (schema diff + scripts) | $9.99 |
-| **code-review-ai** | AI-powered code review (PR analysis + improvements) | $9.99 |
-| **performance-opt** | Performance optimization (auto profiling + solutions) | $9.99 |
+| Skill | Description | Price | Docs | Script |
+|-------|-------------|-------|------|-------|
+| **security-audit** | Automated security scanning + fix suggestions | $9.99 | [README](./skills/security-audit/README.md) | [audit.py](./skills/security-audit/scripts/audit.py) |
+| **api-integration** | One-click API integration (auto-read docs + generate code) | $9.99 | [README](./skills/api-integration/README.md) | [integrate.py](./skills/api-integration/scripts/integrate.py) |
+| **db-migration** | Database migration assistant (schema diff + scripts) | $9.99 | [README](./skills/db-migration/README.md) | [migrate.py](./skills/db-migration/scripts/migrate.py) |
+| **code-review-ai** | AI-powered code review (PR analysis + improvements) | $9.99 | [README](./skills/code-review-ai/README.md) | [review.py](./skills/code-review-ai/scripts/review.py) |
+| **performance-opt** | Performance optimization (auto profiling + solutions) | $9.99 | [README](./skills/performance-opt/README.md) | [optimize.py](./skills/performance-opt/scripts/optimize.py) |
 
 **Bundle: $29.99** (save $19.96)
 
@@ -71,10 +73,10 @@ AI agents (Claude Code, Hermes, etc.) are powerful but:
 
 ```bash
 # Single skill
-hermes skills install billbtbillb-ui/ai-agent-toolkit/security-audit
+hermes skills install freshtemp-labs/ai-agent-toolkit/security-audit
 
 # All skills (bundle)
-hermes skills install billbtbillb-ui/ai-agent-toolkit --all
+hermes skills install freshtemp-labs/ai-agent-toolkit --all
 ```
 
 ### Use MCP Server
