@@ -2,7 +2,7 @@
 name: api-integration
 description: One-click API integration — reads OpenAPI/Swagger docs, GraphQL schemas, or raw HTTP endpoints and generates type-safe client code with error handling, retry logic, and authentication.
 version: 1.0.0
-author: AI Agent Toolkit
+author: Armosis Agent SDK (freshtemp-labs)
 license: MIT
 tags: [api, integration, openapi, swagger, graphql, rest, client-generation]
 platforms: [linux, macos]

@@ -2,7 +2,7 @@
 name: db-migration
 description: Database migration assistant -- compares database schemas (PostgreSQL, MySQL, SQLite), detects drift, generates safe migration scripts with rollback, and validates against breaking changes.
 version: 1.0.0
-author: AI Agent Toolkit
+author: Armosis Agent SDK (freshtemp-labs)
 license: MIT
 tags: [database, migration, schema, postgresql, mysql, sqlite, alembic, flyway]
 platforms: [linux, macos]

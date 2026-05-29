@@ -2,7 +2,7 @@
 name: performance-opt
 description: Performance optimization assistant -- profiles code (CPU, memory, I/O), identifies bottlenecks, and generates optimized implementations with before/after benchmarks.
 version: 1.0.0
-author: AI Agent Toolkit
+author: Armosis Agent SDK (freshtemp-labs)
 license: MIT
 tags: [performance, optimization, profiling, benchmarking, bottleneck, caching]
 platforms: [linux, macos]

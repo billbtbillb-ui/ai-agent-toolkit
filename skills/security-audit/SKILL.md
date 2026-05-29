@@ -2,7 +2,7 @@
 name: security-audit
 description: Automated security auditing for codebases — vulnerability scanning, CWE mapping, and fix suggestions. Covers SAST (bandit/semgrep), dependency scanning (pip-audit/safety), and secret detection (gitleaks/detect-secrets).
 version: 1.0.0
-author: AI Agent Toolkit
+author: Armosis Agent SDK (freshtemp-labs)
 license: MIT
 tags: [security, audit, sast, vulnerabilities, cwe, owasp, code-scanning]
 platforms: [linux, macos]

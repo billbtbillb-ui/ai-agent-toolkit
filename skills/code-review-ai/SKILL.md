@@ -2,7 +2,7 @@
 name: code-review-ai
 description: AI-powered code review with deep reasoning -- analyzes pull requests and commits for bugs, security issues, performance problems, and architectural concerns. Runs in CI or as a pre-commit hook.
 version: 1.0.0
-author: AI Agent Toolkit
+author: Armosis Agent SDK (freshtemp-labs)
 license: MIT
 tags: [code-review, pull-request, ci, security, static-analysis, quality]
 platforms: [linux, macos]
